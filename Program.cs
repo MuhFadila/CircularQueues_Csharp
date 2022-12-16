@@ -6,6 +6,9 @@ namespace CircularQueues_Csharp
     {
         int FRONT, REAR, max = 5;
         int[] queue_array = new int[5];
-        public Queues() { }
+        public Queues()
+        {
+
+        }
     }
 }
