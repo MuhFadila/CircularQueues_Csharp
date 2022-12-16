@@ -108,5 +108,25 @@ namespace CircularQueues_Csharp
                 Console.WriteLine();
             }
         }
+        static void Main(string[] args)
+        {
+            Queues q = new Queues();
+            char ch;
+            while (true)
+            {
+                try
+                {
+
+                }
+                catch (Exception e)
+                {
+
+                    throw;
+                }
+                {
+
+                }
+            }
+        }
     }
 }
