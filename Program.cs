@@ -40,6 +40,9 @@ namespace CircularQueues_Csharp
                      then its value is increment by one. */
                     REAR = REAR + 1;
             }
+            /* once the position of REAR is determined, the element is added at its proper place. */
+            queue_array[REAR] = element;
         }
+        public void remove() { }
     }
 }
