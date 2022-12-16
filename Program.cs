@@ -9,7 +9,7 @@ namespace CircularQueues_Csharp
         public Queues()
         {
             /* Initializing the values of the variebles REAR and FRONT to -1 
-             * to indicate that queue is initialy empty. */
+             to indicate that queue is initialy empty. */
             FRONT = -1;
             REAR = -1;
         }
@@ -21,12 +21,24 @@ namespace CircularQueues_Csharp
                 Console.WriteLine("\nQueue overflow\n");
             }
             /* The following statement checks whether the queue is empty. 
-             * if the queue is empty then value of REAR and FRONT variables 
-             * is set to 0. */
+             if the queue is empty then value of REAR and FRONT variables 
+             is set to 0. */
             if (FRONT == -1)
             {
                 FRONT = 0;
                 REAR = 0;
+            }
+            else
+            {
+                /* if REAR is at the last position of the array, then the 
+                 value of REAR is setmto 0 that corresponds to 
+                 the first position of the array. */
+                if (REAR == max - 1)
+                    REAR = 0;
+                else
+                    /* if REAR is not at the last position, 
+                     then its value is increment by one. */
+                    REAR = REAR + 1;
             }
         }
     }
