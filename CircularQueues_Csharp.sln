@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularQueues_Csharp", "CircularQueues_Csharp.csproj", "{0319963D-ABAF-40CD-84C9-D16549323A42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0319963D-ABAF-40CD-84C9-D16549323A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0319963D-ABAF-40CD-84C9-D16549323A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0319963D-ABAF-40CD-84C9-D16549323A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0319963D-ABAF-40CD-84C9-D16549323A42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6F47108-9C61-4EB6-93E2-E4161C0D23E7}
+	EndGlobalSection
+EndGlobal
