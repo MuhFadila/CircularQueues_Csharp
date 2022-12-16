@@ -68,5 +68,6 @@ namespace CircularQueues_Csharp
                     FRONT = FRONT + 1;
             }
         }
+        public void display() { }
     }
 }
