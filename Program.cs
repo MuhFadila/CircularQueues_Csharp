@@ -12,5 +12,9 @@ namespace CircularQueues_Csharp
             FRONT = -1;
             REAR = -1;
         }
+        public void insert(int element)
+        {
+
+        }
     }
 }
