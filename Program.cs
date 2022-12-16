@@ -79,7 +79,16 @@ namespace CircularQueues_Csharp
                 return;
             }
             Console.WriteLine("nElements in the queue are...............\n");
-            if (FRONT_position <= REAR_position) { }
+            if (FRONT_position <= REAR_position)
+            {
+                /* traverses the queue till the last element present in an array. */
+                while (FRONT_position <= REAR_position)
+                {
+                    Console.WriteLine(queue_array[FRONT_position] + "   ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
