@@ -134,12 +134,28 @@ namespace CircularQueues_Csharp
                                 q.insert(num);
                             }
                             break;
+                        case '2':
+                            {
+                                q.remove();
+                            }
+                            break;
+                        case '3':
+                            {
+                                q.display();
+                            }
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option!!");
+                            }
+                            break;
                     }
                 }
                 catch (Exception e)
                 {
-
-                    throw;
+                    Console.WriteLine("Check for the values entered.");
                 }
                 {
 
